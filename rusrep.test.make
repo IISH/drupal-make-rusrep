@@ -31,6 +31,7 @@ projects[jquery_update][subdir] = contrib
 projects[l10n_update][subdir] = contrib 
 projects[libraries][subdir] = contrib 
 projects[login_destination][subdir] = contrib 
+projects[menu_firstchild][subdir] = contrib 
 projects[menu_trail_by_path][subdir] = contrib 
 projects[pathauto][subdir] = contrib 
 projects[strongarm][subdir] = contrib 
