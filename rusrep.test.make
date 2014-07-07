@@ -23,7 +23,6 @@ projects[ctools_automodal][subdir] = contrib
 projects[entity][subdir] = contrib 
 projects[features][subdir] = contrib 
 projects[features_extra][subdir] = contrib 
-projects[fontyourface][subdir] = contrib 
 projects[google_analytics][subdir] = contrib 
 projects[i18n][subdir] = contrib 
 projects[job_scheduler][subdir] = contrib 
