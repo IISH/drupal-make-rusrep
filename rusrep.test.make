@@ -41,6 +41,7 @@ projects[uuid_features][subdir] = contrib
 projects[variable][subdir] = contrib 
 projects[views][subdir] = contrib 
 projects[wysiwyg][subdir] = contrib 
+projects[wysiwyg][version] = 2.2-dev
 
 
 ; Themes
