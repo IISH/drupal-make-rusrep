@@ -58,6 +58,6 @@ projects[ristat][download][branch] = "test"
 
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = file
-;libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.2/ckeditor_4.4.2_standard.zip
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.2/ckeditor_4.4.2_standard.zip"
 libraries[ckeditor][directory_name] = ckeditor
 
