@@ -29,7 +29,7 @@ makefile=$instance.$environment.make
 revision=$(git rev-parse HEAD)
 target="target"
 make=$instance-$version
-expect=$target/$make.tar.gz
+expect=$make.tar.gz
 
 echo "Build $expect from $makefile, revision $revision"
 
@@ -38,20 +38,13 @@ if [ -d $target ] ; then
 	rm -r $target
 fi
 
-if [ -d tmp ] ; then
-    rm -rf tmp
-fi
-mkdir tmp
+drush make $makefile ./$target/$make
 
-drush make $makefile ./tmp
+mv scripts/* ./$target/$make/scripts/
 
-mv scripts/* ./tmp/scripts/
+cd ./$target
 
-cd ./tmp
-
-tar -zcvf ../$expect .
-cd ..
-rm -rf tmp
+tar -zcvf $expect $make
 
 if [ -f $expect ] ; then
 	echo "Done."
