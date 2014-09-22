@@ -40,7 +40,7 @@ fi
 
 drush make $makefile ./$target/$make
 
-mv scripts/* ./$target/$make/scripts/
+rsync -av scripts/ ./target/rusrep-1.0/scripts/
 
 cd ./$target
 
