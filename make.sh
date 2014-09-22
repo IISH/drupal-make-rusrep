@@ -27,14 +27,15 @@ fi
 
 makefile=$instance.$environment.make
 revision=$(git rev-parse HEAD)
-target=target/$instance-$version
-expect=$target.tar.gz
+target="target"
+make=$instance-$version
+expect=$make.tar.gz
 
 echo "Build $expect from $makefile, revision $revision"
 
 # Remove previous builds.
-if [ -d target ] ; then
-	rm -r target
+if [ -d $target ] ; then
+	rm -r $target
 fi
 
 drush make $makefile ./$target
@@ -43,7 +44,8 @@ if [ -d scripts ] ; then
     mv scripts/* ./$target/scripts/
 fi
 
-tar -zcvf $expect ./$target
+cd ./$target
+tar -zcvf $expect $make
 
 
 if [ -f $expect ] ; then
