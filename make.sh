@@ -37,7 +37,15 @@ if [ -d target ] ; then
 	rm -r target
 fi
 
-drush make --tar $makefile ./$target
+drush make $makefile ./$target
+
+if [ -d scripts ] ; then
+    mv scripts/* ./$target/scripts/
+fi
+
+tar -zcvf $expect ./$target
+
+
 if [ -f $expect ] ; then
 	echo "Done."
 	exit 0
@@ -45,4 +53,3 @@ else
 	echo "Build failed. No file found at $target."
 	exit -1
 fi
-
