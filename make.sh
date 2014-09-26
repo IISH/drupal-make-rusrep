@@ -27,17 +27,25 @@ fi
 
 makefile=$instance.$environment.make
 revision=$(git rev-parse HEAD)
-target=target/$instance-$version
-expect=$target.tar.gz
+target="target"
+make=$instance-$version
+expect=$make.tar.gz
 
 echo "Build $expect from $makefile, revision $revision"
 
 # Remove previous builds.
-if [ -d target ] ; then
-	rm -r target
+if [ -d $target ] ; then
+	rm -r $target
 fi
 
-drush make --tar $makefile ./$target
+drush make $makefile ./$target/$make
+
+rsync -av scripts/ ./target/rusrep-1.0/scripts/
+
+cd ./$target
+
+tar -zcvf $expect $make
+
 if [ -f $expect ] ; then
 	echo "Done."
 	exit 0
@@ -45,4 +53,3 @@ else
 	echo "Build failed. No file found at $target."
 	exit -1
 fi
-
