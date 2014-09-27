@@ -40,7 +40,13 @@ fi
 
 drush make $makefile ./$target/$make
 
-rsync -av scripts/ ./target/rusrep-1.0/scripts/
+s="./${target}/${make}/scripts/"
+rsync -av scripts/ $s
+
+htaccess="${s}.htaccess"
+echo "# Deny access to everything by default" > $htaccess
+echo "Order Deny,Allow" >> $htaccess
+echo "deny from all" >> $htaccess
 
 cd ./$target
 
