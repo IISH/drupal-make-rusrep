@@ -5,7 +5,11 @@ api = 2
 ; Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.28
+projects[drupal][version] = 7.32
+
+; LDAP
+projects[ldap][subdir] = "contrib"
+projects[ldap][version] = "2.0-beta8"
 
 ; RusRep custom modules
 
