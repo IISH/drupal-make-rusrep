@@ -9,8 +9,8 @@ set -e
 
 instance=$1
 if [ -z "$instance" ] ; then
-	echo "Need a name of the project build."
-	exit -1
+	instance="rusrep"
+	echo "Default instance ${instance}"
 fi
 
 version=$2
@@ -19,13 +19,7 @@ if [ -z "$version" ] ; then
 	echo "Default version ${version}"
 fi
 
-environment=$3
-if [ -z "$environment" ] ; then
-	environment="production"
-	echo "Default environment ${environment}"
-fi
-
-makefile=$instance.$environment.make
+makefile=$instance.make
 revision=$(git rev-parse HEAD)
 target="target"
 make=$instance-$version
