@@ -25,7 +25,7 @@ projects[querytool][subdir] = custom
 projects[querytool][version] = 1.x-dev
 projects[querytool][download][type] = git
 projects[querytool][download][url] = git://github.com/IISH/drupal-module-querytool.git
-projects[querytool][download][branch] = master
+projects[querytool][download][branch] = test
 
 ; RusRep required modules
 
