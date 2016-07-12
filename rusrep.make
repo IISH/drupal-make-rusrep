@@ -1,13 +1,13 @@
 core = 7.x
 api = 2
 
-
 ; Core
 
 projects[drupal][type] = core
 projects[drupal][version] = 7.44
 
 ; LDAP
+
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta8"
 
@@ -54,7 +54,6 @@ projects[views][subdir] = contrib
 projects[wysiwyg][subdir] = contrib 
 projects[wysiwyg][version] = 2.x-dev
 
-
 ; Themes
 
 projects[zen][version] = 5.5
@@ -64,11 +63,9 @@ projects[ristat][download][type] = "git"
 projects[ristat][download][url] = "git://github.com/IISH/drupal-theme-rusrep.git"
 projects[ristat][download][branch] = "master"
 
-
 ; Libraries
 
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = file
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.2/ckeditor_4.4.2_standard.zip"
 libraries[ckeditor][directory_name] = ckeditor
-
