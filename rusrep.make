@@ -51,6 +51,7 @@ projects[uuid][subdir] = contrib
 projects[uuid_features][subdir] = contrib 
 projects[variable][subdir] = contrib 
 projects[views][subdir] = contrib 
+projects[views_bulk_operations][subdir] = contrib 
 projects[wysiwyg][subdir] = contrib 
 projects[wysiwyg][version] = 2.x-dev
 
