@@ -29,29 +29,55 @@ projects[querytool][download][branch] = test
 
 ; RusRep required modules
 
+projects[admin_menu][subdir] = contrib 
+projects[admin_menu][version] = 3.0-rc5 
+
 projects[ctools][subdir] = contrib 
+
 projects[ctools_automodal][subdir] = contrib 
+
 projects[entity][subdir] = contrib 
+
 projects[features][subdir] = contrib 
+
 projects[features_extra][subdir] = contrib 
+
 projects[google_analytics][subdir] = contrib 
+
 projects[i18n][subdir] = contrib 
+
 projects[job_scheduler][subdir] = contrib 
+
 projects[jquery_update][subdir] = contrib 
+
 projects[l10n_update][subdir] = contrib 
+
 projects[libraries][subdir] = contrib 
+
 projects[login_destination][subdir] = contrib 
+
 projects[menu_firstchild][subdir] = contrib 
+
 projects[menu_trail_by_path][subdir] = contrib 
+
 projects[pathauto][subdir] = contrib 
+
 projects[strongarm][subdir] = contrib 
+
 projects[token][subdir] = contrib 
+
 projects[transliteration][subdir] = contrib 
+
 projects[uuid][subdir] = contrib 
+
 projects[uuid_features][subdir] = contrib 
+
 projects[variable][subdir] = contrib 
+
 projects[views][subdir] = contrib 
+
 projects[views_bulk_operations][subdir] = contrib 
+
 projects[wysiwyg][subdir] = contrib 
 projects[wysiwyg][version] = 2.x-dev
 
