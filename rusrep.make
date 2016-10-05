@@ -6,11 +6,6 @@ api = 2
 projects[drupal][type] = core
 projects[drupal][version] = 7.50
 
-; LDAP
-
-projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta8"
-
 ; RusRep custom modules
 
 projects[datasets][type] = module
@@ -29,8 +24,11 @@ projects[querytool][download][branch] = test
 
 ; RusRep required modules
 
-projects[admin_menu][subdir] = contrib 
-projects[admin_menu][version] = 3.0-rc5 
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.0-rc5
+
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 3.1
 
 projects[ctools][subdir] = contrib 
 
@@ -51,6 +49,9 @@ projects[job_scheduler][subdir] = contrib
 projects[jquery_update][subdir] = contrib 
 
 projects[l10n_update][subdir] = contrib 
+
+projects[ldap][subdir] = contrib
+projects[ldap][version] = 2.0-beta8
 
 projects[libraries][subdir] = contrib 
 
