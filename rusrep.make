@@ -34,6 +34,9 @@ projects[ctools][subdir] = contrib
 
 projects[ctools_automodal][subdir] = contrib 
 
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
+
 projects[entity][subdir] = contrib 
 
 projects[features][subdir] = contrib 
