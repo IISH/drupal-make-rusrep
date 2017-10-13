@@ -21,31 +21,17 @@ fi
 
 makefile=$instance.make
 revision=$(git rev-parse HEAD)
-target="target"
-make=$instance-$version
-expect=$make.tar.gz
+target=target/$instance-$version
+expect=$target.tar.gz
 
 echo "Build $expect from $makefile, revision $revision"
 
 # Remove previous builds.
-if [ -d $target ] ; then
-	rm -r $target
+if [ -d target ] ; then
+	rm -r target
 fi
 
-drush make $makefile ./$target/$make
-
-s="./${target}/${make}/scripts/"
-rsync -av scripts/ $s
-
-htaccess="${s}.htaccess"
-echo "# Deny access to everything by default" > $htaccess
-echo "Order Deny,Allow" >> $htaccess
-echo "deny from all" >> $htaccess
-
-cd ./$target
-
-tar -zcvf $expect $make
-
+drush make --tar $makefile ./$target
 if [ -f $expect ] ; then
 	echo "Done."
 	exit 0
