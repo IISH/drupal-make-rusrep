@@ -83,9 +83,6 @@ projects[views][subdir] = contrib
 
 projects[views_bulk_operations][subdir] = contrib 
 
-projects[views_slideshow][subdir] = contrib 
-projects[views_slideshow][version] = 3.x-dev
-
 projects[wysiwyg][subdir] = contrib 
 projects[wysiwyg][version] = 2.x-dev
 
