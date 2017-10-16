@@ -59,6 +59,7 @@ projects[ldap][version] = 2.0-beta8
 projects[libraries][subdir] = contrib 
 
 projects[login_destination][subdir] = contrib 
+projects[login_destination][version] = 1.1
 
 projects[menu_firstchild][subdir] = contrib 
 
