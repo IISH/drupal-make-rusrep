@@ -17,8 +17,8 @@ projects[datasets][type] = module
 projects[datasets][subdir] = custom
 projects[datasets][version] = 1.x
 projects[datasets][download][type] = git
-projects[datasets][download][url] = git://github.com/IISH/drupal-module-rusrep.git
-projects[datasets][download][branch] = test
+projects[datasets][download][url] = git@github.com:IISH/drupal-module-rusrep.git
+projects[datasets][download][branch] = master
 
 ; RusRep required modules
 
@@ -54,7 +54,7 @@ projects[zen][version] = 5.5
 
 projects[ristat][type] = theme
 projects[ristat][download][type] = git
-projects[ristat][download][url] = git://github.com/IISH/drupal-theme-rusrep.git
+projects[ristat][download][url] = git@github.com:IISH/drupal-theme-rusrep.git
 projects[ristat][download][branch] = master
 
 
