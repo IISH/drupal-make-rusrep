@@ -47,6 +47,9 @@ projects[views][subdir] = contrib
 projects[wysiwyg][subdir] = contrib 
 projects[wysiwyg][version] = 2.x-dev
 
+projects[module_missing_message_fixer][subdir] = "contrib"
+projects[module_missing_message_fixer][version] = "1.7"
+
 
 ; Themes
 
