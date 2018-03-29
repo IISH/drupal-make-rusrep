@@ -52,10 +52,10 @@ projects[wysiwyg][version] = 2.x-dev
 
 projects[zen][version] = 5.5
 
-projects[ristat][type] = "theme"
-projects[ristat][download][type] = "git"
-projects[ristat][download][url] = "git://github.com/IISH/drupal-theme-rusrep.git"
-projects[ristat][download][branch] = "test"
+projects[ristat][type] = theme
+projects[ristat][download][type] = git
+projects[ristat][download][url] = git://github.com/IISH/drupal-theme-rusrep.git
+projects[ristat][download][branch] = master
 
 
 ; Libraries
