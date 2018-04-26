@@ -5,7 +5,7 @@ api = 2
 ; Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.58
+projects[drupal][version] = 7.59
 
 ; LDAP
 projects[ldap][subdir] = "contrib"
