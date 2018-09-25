@@ -4,7 +4,7 @@ api = 2
 ; Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.56
+projects[drupal][version] = 7.59
 
 ; RusRep custom modules
 
@@ -28,14 +28,14 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 3.1
+projects[backup_migrate][version] = 3.5
 
 projects[ctools][subdir] = contrib 
 
 projects[ctools_automodal][subdir] = contrib 
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 
 projects[entity][subdir] = contrib 
 
@@ -54,7 +54,7 @@ projects[jquery_update][subdir] = contrib
 projects[l10n_update][subdir] = contrib 
 
 projects[ldap][subdir] = contrib
-projects[ldap][version] = 2.0-beta8
+projects[ldap][version] = 2.4
 
 projects[libraries][subdir] = contrib 
 
@@ -84,7 +84,7 @@ projects[views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib 
 
 projects[wysiwyg][subdir] = contrib 
-projects[wysiwyg][version] = 2.x-dev
+projects[wysiwyg][version] = 2.5
 
 ; Themes
 
