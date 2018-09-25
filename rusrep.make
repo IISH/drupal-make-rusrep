@@ -59,7 +59,7 @@ projects[ldap][version] = 2.4
 projects[libraries][subdir] = contrib 
 
 projects[login_destination][subdir] = contrib 
-projects[login_destination][version] = 1.1
+projects[login_destination][version] = 1.4
 
 projects[menu_firstchild][subdir] = contrib 
 
@@ -88,7 +88,7 @@ projects[wysiwyg][version] = 2.5
 
 ; Themes
 
-projects[zen][version] = 5.5
+projects[zen][version] = 5.6
 
 projects[ristat][type] = "theme"
 projects[ristat][download][type] = "git"
