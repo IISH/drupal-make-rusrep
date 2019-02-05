@@ -25,17 +25,17 @@ projects[querytool][download][branch] = test
 ; RusRep required modules
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc5
+projects[admin_menu][version] = 3.0-rc6
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 3.5
+projects[backup_migrate][version] = 3.6
 
 projects[ctools][subdir] = contrib 
 
 projects[ctools_automodal][subdir] = contrib 
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 3.3
+projects[diff][version] = 3.4
 
 projects[entity][subdir] = contrib 
 
