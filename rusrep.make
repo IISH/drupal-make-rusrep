@@ -4,7 +4,7 @@ api = 2
 ; Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.63
+projects[drupal][version] = 7.64
 
 ; RusRep custom modules
 
@@ -31,6 +31,7 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 3.6
 
 projects[ctools][subdir] = contrib 
+projects[ctools][version] = 7.x-1.15
 
 projects[ctools_automodal][subdir] = contrib 
 
