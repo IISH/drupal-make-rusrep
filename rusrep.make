@@ -4,7 +4,7 @@ api = 2
 ; Core
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.64
+projects[drupal][version] = 7.65
 
 ; RusRep custom modules
 
@@ -81,6 +81,7 @@ projects[uuid_features][subdir] = contrib
 projects[variable][subdir] = contrib 
 
 projects[views][subdir] = contrib 
+projects[views][version] = 3.22
 
 projects[views_bulk_operations][subdir] = contrib 
 
